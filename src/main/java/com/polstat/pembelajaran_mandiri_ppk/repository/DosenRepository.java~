@@ -1,0 +1,4 @@
+package com.polstat.pembelajaran_mandiri_ppk.repository;
+
+public interface DosenRepository {
+}

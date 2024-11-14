@@ -1,4 +1,7 @@
 package com.polstat.pembelajaran_mandiri_ppk.repository;
 
-public interface PraktikumRepository {
+import com.polstat.pembelajaran_mandiri_ppk.entity.Praktikum;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PraktikumRepository extends JpaRepository<Praktikum, Long> {
 }

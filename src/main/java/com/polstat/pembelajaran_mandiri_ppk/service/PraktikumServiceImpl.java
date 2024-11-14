@@ -57,7 +57,7 @@ public class PraktikumServiceImpl implements PraktikumService {
 
     @Override
     public List<PraktikumDTO> getPraktikumByMahasiswa(Long mahasiswaId) {
-        return praktikumRepository.findByMahasiswaId(mahasiswaId).stream()
+        return praktikumRepository.findByMahasiswa_UserId(mahasiswaId).stream()
                 .map(PraktikumMapper::toDTO)
                 .collect(Collectors.toList());
     }

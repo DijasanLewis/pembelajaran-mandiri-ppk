@@ -1,0 +1,4 @@
+package com.polstat.pembelajaran_mandiri_ppk.entity;
+
+public class Mahasiswa {
+}

@@ -1,0 +1,7 @@
+Buatlah layanan web (web service) dengan ketentuan sebagai berikut:
+1. Layanan web berhubungan dengan proses bisnis di Polstat-STIS atau di BPS. Setiap mahasiswa tidak boleh mengerjakan satu topik atau proses bisnis yang sama. (Buat sheet topik untuk kelas 3SI1 dan 3SI2 dan bagikan linknya ke dosen lewat stream classroom)
+2. Layanan web yang dibuat harus memuat manajemen pengguna yang terdiri dari registrasi, login, profil, edit profil, ganti password dan hapus akun.
+3. Layanan web harus memuat bisnis proses utama sesuai topik yang dipilih. Misal: layanan perpustakaan harus ada manajemen koleksi buku dan pencarian buku.
+4. Setiap endpoint layanan (kecuali login dan registrasi) harus terotentikasi sesuai dengan pengguna yang login menggunakan token-based authentication.
+5. Layanan web berupa RESTful atau GraphQL dan dibuat dengan bahasa pemrograman Java.
+6. Buat laporan yang memuat penjelasan proses bisnis, penjelasan kode program layanan utama, dokumentasi atau cara penggunaan setiap endpoint, contoh pengujian dan hasilnya, serta link kode program

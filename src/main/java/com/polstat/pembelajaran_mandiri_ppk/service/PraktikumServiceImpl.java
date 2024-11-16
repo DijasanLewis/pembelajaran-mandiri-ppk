@@ -1,5 +1,11 @@
 package com.polstat.pembelajaran_mandiri_ppk.service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.polstat.pembelajaran_mandiri_ppk.dto.PraktikumDTO;
 import com.polstat.pembelajaran_mandiri_ppk.entity.Mahasiswa;
 import com.polstat.pembelajaran_mandiri_ppk.entity.Pertemuan;
@@ -8,12 +14,6 @@ import com.polstat.pembelajaran_mandiri_ppk.mapper.PraktikumMapper;
 import com.polstat.pembelajaran_mandiri_ppk.repository.MahasiswaRepository;
 import com.polstat.pembelajaran_mandiri_ppk.repository.PertemuanRepository;
 import com.polstat.pembelajaran_mandiri_ppk.repository.PraktikumRepository;
-import com.polstat.pembelajaran_mandiri_ppk.service.PraktikumService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class PraktikumServiceImpl implements PraktikumService {
